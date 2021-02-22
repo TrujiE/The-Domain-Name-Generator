@@ -21,7 +21,7 @@ ourbigracoon.com 	1+1+1+0
 
 function uno(){
 	//console.log("Opcion: 1");
-	let total="Opcion 1:<br>";	
+	let total="Opcion 'For' <br>";	
 	let large_pron = pronoun.length;
 	let large_adj = adj.length;
 	let large_noun = noun.length;
@@ -48,7 +48,7 @@ element1.innerHTML= uno();
 
 function dos(){
 	//console.log("Opcion: 2");
-	let total="<br> Opcion 2: <br>";
+	let total="<br> Opcion 'For of' <br>";
 	for(let pr1 of pronoun){
 		for(let ad1 of adj){
 			for(let no1 of noun){
