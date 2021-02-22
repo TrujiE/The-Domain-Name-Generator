@@ -6,19 +6,6 @@ let adj = ['great', 'big' ];
 let noun = ['jogger','racoon'];
 let ext = ['.com', '.cl', '.net', '.us'];
 
-/*
-Debería generar algo como:
-
-thegreatjogger.com  0+0+0+0
-thegreatracoon.com 	0+0+1+0
-ourgreatjogger.com 	1+0+0+0
-ourgreatracoon.com 	1+0+1+0
-thebigjogger.com 	0+1+0+0
-thebigracoon.com 	0+1+1+0
-ourbigjogger.com 	1+1+0+0
-ourbigracoon.com 	1+1+1+0
-*/
-
 function uno(){
 	//console.log("Opcion: 1");
 	let total="Opcion 'For' <br>";	
